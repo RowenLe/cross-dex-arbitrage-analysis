@@ -22,17 +22,7 @@ The goal is to distinguish between an observable cross-DEX price discrepancy and
 
 The final profitability of an arbitrage trade can be expressed as:
 
-$$
-\text{Net PnL}
-=
-\text{Arbitrage Gain}
--
-\text{DEX Fees}
--
-\text{Price Impact}
--
-\text{Gas Cost}
-$$
+**Net PnL = Arbitrage Gain − DEX Fees − Price Impact − Gas Cost**
 
 A price discrepancy therefore does not necessarily imply a profitable trade. The spread must be large enough to overcome all execution costs.
 
